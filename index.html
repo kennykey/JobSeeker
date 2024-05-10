@@ -34,14 +34,14 @@
     <section id="about">
         <div class="container">
             <div class="row tengah">
-                <div class="container col-md-6">
+                <div class="container col-md-6" data-aos="fade-right">
                     <p class="fs-3">Kenny <span class="fs-3" style="color:#6d7581;">Key</span></p>
                     <p class="text-muted">Front-end developer with basic experience in javascript and react. Passionate in website development and always learning</p>
                     <a href="src/KENNY KEY CV .pdf">
                         <button class="btn btn-outline-secondary">Resume</button>
                     </a>
                 </div>
-                <div class="container tengah col-md-6">
+                <div class="container tengah col-md-6" data-aos="fade-left">
                     <img class="img-fluid" src="src/undraw_Welcoming_re_x0qo.png" alt="about-image" style="height: 28rem;">
                 </div>
             </div>
@@ -50,7 +50,7 @@
 
     <section>
         <div class="container">
-            <div class="row space">
+            <div class="row space" data-aos="flip-up">
                 <div class="col-md-6">
                     <h3>Education</h3>
                     <div class="content">
@@ -84,7 +84,7 @@
         <div class="container">
             <div class="space">
                 <div class="row tengah">
-                    <div class="col-md-6 my-5">
+                    <div class="col-md-6 my-5" data-aos="zoom-in-right">
                         <p class="tengah">Hard Skill</p>
                         <div class="skill">
                             <p class="box">HTML</p>
@@ -98,7 +98,7 @@
                             <p class="box">Next.js</p>
                         </div>
                     </div>
-                    <div class="col-md-6 my-5">
+                    <div class="col-md-6 my-5" data-aos="zoom-in-left">
                         <p class="tengah">Soft Skill</p>
                         <div class="skill">
                             <p class="box">Team Work</p>
@@ -109,7 +109,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="row text-center my-5">
+                <div class="row text-center my-5" data-aos="zoom-in">
                     <p class="tengah">Learn Skill</p>
                     <div class="skill tengah">
                         <p class="box">Jest</p>
@@ -123,7 +123,7 @@
 
     <section id="project">
         <div class="container">
-           <div class="space">
+           <div class="space" data-aos="zoom-out-down">
             <div id="carouselExample" class="carousel carousel-dark slide">
                 <div class="carousel-inner">
                   <div class="carousel-item active">
@@ -202,24 +202,24 @@
     <section id="contact">
         <div class="container my-5">
             <div class="row space">
-                <div class="col-md-6">
-                    <form>
+                <div class="col-md-6" data-aos="zoom-in-right">
+                    <form action="https://formspree.io/f/moqgbvzj" method="POST">
                         <div class="mb-3">
                             <label for="name">Name</label>
-                            <input type="text" id="name" placeholder="Input Name" class="form-control">
+                            <input type="text" name="name" id="name" placeholder="Input Name" class="form-control">
                         </div>
                         <div class="mb-3">
                             <label for="email">Email</label>
-                            <input type="email" id="email" placeholder="Input Email" class="form-control">
+                            <input type="email" name="email" id="email" placeholder="Input Email" class="form-control">
                         </div>
                         <div class="mb-3">
                             <label for="comment" class="form-label">Comment</label>
-                            <textarea id="comment" rows="3" class="form-control"></textarea>
+                            <textarea id="comment" name="comment" rows="3" class="form-control"></textarea>
                         </div>
-                        <button class="btn btn-secondary w-100">Submit</button>
+                        <button class="btn btn-secondary w-100" type="submit">Submit</button>
                     </form>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-6" data-aos="zoom-in-left">
                     <div class="px-5 pt-2">
                         <div class="d-flex gap-3">
                             <i class='bx bxs-location-plus bx-lg'></i>
