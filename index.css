@@ -36,9 +36,8 @@
     flex-wrap: wrap;
 }
 
-.slide{
-    display: flex;
-    justify-content: space-between;
+.card.hide{
+    display: none;
 }
 
 .content{
